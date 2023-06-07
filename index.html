@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js" defer></script>
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+<body>
+
+  <main>
+
+    <header>
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trail. No credit card required</p>
+    </header>
+
+    <div class="pricing-card">
+      <div class="main">
+
+        
+        <div class="head">
+        <div class="price">
+          <h2>$16.00</h2>
+          <p class="billing-option-message">/ month</p>
+        </div>
+        <h2><span class="page-views">100</span>K PAGEVIEWS</h2>
+        </div>
+
+
+        <div class="slider">
+          <div class="slide">
+            <img src="/images/icon-slider.svg" alt="test">
+          </div>
+          <input type="range" min="0" max="100" value="50" class="slider-input" id="myRange">
+        </div>
+
+
+
+        
+      </div>
+
+      <div class="billing">
+        <h2>Monthly Billing</h2>
+        <div class="billing-toggle">
+          <div class="toggle monthly"></div>
+        </div>
+        <div class="y">
+          <h2>Yearly Billing</h2>
+          <span>-25%</span>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="more">
+        <div class="features">
+          <div class="feature">
+            <img src="/images/icon-check.svg" alt="">
+            <p>Unlimited websites</p>
+          </div>
+          <div class="feature">
+            <img src="/images/icon-check.svg" alt="">
+            <p>100% data ownership</p>
+          </div>
+          <div class="feature">
+            <img src="/images/icon-check.svg" alt="">
+            <p>Email reports</p>
+          </div>
+        </div>
+        <button>Start my trial</button>
+      </div>
+    </div>
+
+
+  </main>
+</body>
+</html>
